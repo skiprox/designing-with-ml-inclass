@@ -1,0 +1,17 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass scss/screen.scss css/style.css --output-style compressed",
+    "watch": "onchange 'scss/*.scss' -- npm run css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "onchange": "^6.1.0",
+    "watchify": "^3.11.1"
+  }
+}
