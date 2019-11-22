@@ -67,3 +67,5 @@ target/
 */screenshots
 */images
 */node_modules
+*/resized
+*/**/resized
